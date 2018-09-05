@@ -666,9 +666,11 @@ public class Home extends AppCompatActivity implements View.OnClickListener, Con
     public void setHubConnection(WMSMobileService.mHubConnectionSevice hubConnection) {
         WMSMobileService.mHubConnectionSevice = hubConnection;
     }
+
     public void unSetHubConnection(WMSMobileService.mHubConnectionSevice hubConnection) {
         WMSMobileService.mHubConnectionSevice = null;
     }
+
     interface updateSnackbar {
         void onUpdateSnackBar(boolean info);
     }
